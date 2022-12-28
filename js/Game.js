@@ -348,12 +348,7 @@ class Game {
   //parametro 
 
   handleObstacleCollision(index) {
-    if (cars[index - 1].collide(obstacles)) {
-      if (this.leftKeyActive) {
-        player.positionX += 100;
-      } else {
-        player.positionX -= 100;
-      }
+// COMPLETE A FUNÇÃO
 
       //Reduzindo a vida do jogador
       if (player.life > 0) {
